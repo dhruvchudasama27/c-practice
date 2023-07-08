@@ -12,8 +12,4 @@ void main()
     second = (number - (first*100))/10;
     third = number - (first*100) - (second*10);
     printf(" the value of first is %d \n value of second is %d \n value of third is %d",first,second,third);
-
-
-
-
 }
