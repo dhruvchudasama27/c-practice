@@ -6,7 +6,7 @@ void main()
     printf(" the value is");
     scanf("%d",&number);
 
-    if((number <=9)(number>=-9))
+    if((number <=9),(number>=-9))
     {
         printf("the given number single digit");
     }
