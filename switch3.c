@@ -11,10 +11,7 @@
 #include<stdio.h>
 void main()
 {
-    int number1 = 0;
-    int number2 = 0;
-    int option = 0;
-    int ans = 0;
+    int number1=0,number2=0,option=0,ans=0;
 
     printf(" enter value of number1 ");
     scanf("%d",&number1);
