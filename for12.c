@@ -1,4 +1,4 @@
-// /first is c      second is a
+//  first is raw     second is column
 //                 11
 //             21  22
 //         31  32  33
@@ -8,28 +8,51 @@
 #include <stdio.h>
 void main()
 {
-    int a, a1, c, d = 5;
+    int raw, cal, cal2, a = 5,;
 
-    for (c = 1; c <= 5; c++)
+    for (raw = 0; raw <= 5; raw++)
     {
-        for (a = 1; a <= d; a++)
+        for (cal = 0; cal < a; cal++)
         {
-            
-            {printf(" ");}
+            printf(" ");
         }
-        for (a1 = 1; a1 <= c; a1++)
+        for (cal2 = 0; cal2 <= raw; cal2++)
         {
-            if(c==5 || a1==1   )
+            if (raw == 5 || cal2==1   )
             {
                 printf("* ");
             }
-            else
-            {
-                printf(" ");
-            }
+            
         }
         printf("\n");
-        d--;
+        a--;
+        b++;
         
     }
 }
+
+// int a, a1, c, d = 5;
+
+// for (c = 1; c <= 5; c++)
+// {
+//     for (a = 1; a <= d; a++)
+//     {
+
+//         {printf(" ");}
+//     }
+//     for (a1 = 1; a1 <= c; a1++)
+//     {
+
+//         if(c==5 || a1==1  )
+//         {
+//             printf("* ");
+//         }
+//         else
+//         {
+//             printf(" ");
+//         }
+//     }
+//     printf("\n");
+//     d--;
+
+// }
